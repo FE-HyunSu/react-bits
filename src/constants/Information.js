@@ -129,6 +129,14 @@ export const componentMetadata = {
     docsUrl: 'https://reactbits.dev/animations/logo-loop',
     tags: []
   },
+  'Animations/MasonEffect': {
+    videoUrl: '/assets/video/masoneffect.webm',
+    description: 'Transforms text into thousands of particles and smoothly morphs them with mouse interaction.',
+    category: 'Animations',
+    name: 'MasonEffect',
+    docsUrl: 'https://reactbits.dev/animations/mason-effect',
+    tags: []
+  },
   'Animations/Magnet': {
     videoUrl: '/assets/video/magnet.webm',
     description: 'Elements magnetically ease toward the cursor then settle back with spring physics.',

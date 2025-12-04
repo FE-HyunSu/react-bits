@@ -7,7 +7,8 @@ export const NEW = [
   'Color Bends',
   'Grid Scan',
   'Floating Lines',
-  'Light Pillar'
+  'Light Pillar',
+  'Mason Effect'
 ];
 export const UPDATED = ['Profile Card', 'Logo Loop', 'Animated Content', 'Fade Content'];
 
@@ -61,6 +62,7 @@ export const CATEGORIES = [
       'Gradual Blur',
       'Click Spark',
       'Magnet',
+      'Mason Effect',
       'Sticker Peel',
       'Pixel Trail',
       'Cubes',

@@ -29,7 +29,8 @@ const animations = {
   'sticker-peel': () => import('../demo/Animations/StickerPeelDemo'),
   'electric-border': () => import('../demo/Animations/ElectricBorderDemo'),
   'laser-flow': () => import('../demo/Animations/LaserFlowDemo'),
-  'ghost-cursor': () => import('../demo/Animations/GhostCursorDemo')
+  'ghost-cursor': () => import('../demo/Animations/GhostCursorDemo'),
+  'mason-effect': () => import('../demo/Animations/MasonEffectDemo')
 };
 
 const textAnimations = {
