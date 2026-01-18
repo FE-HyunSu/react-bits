@@ -6,7 +6,7 @@
 		{
 			"name": "AnimatedContent-JS-CSS",
 			"title": "AnimatedContent",
-			"description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration and easing.",
+			"description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration, easing and disappear options.",
 			"type": "registry:component",
 			"dependencies": [
 				"gsap@^3.13.0"
@@ -22,7 +22,7 @@
 		{
 			"name": "AnimatedContent-JS-TW",
 			"title": "AnimatedContent",
-			"description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration and easing.",
+			"description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration, easing and disappear options.",
 			"type": "registry:component",
 			"dependencies": [
 				"gsap@^3.13.0"
@@ -38,7 +38,7 @@
 		{
 			"name": "AnimatedContent-TS-CSS",
 			"title": "AnimatedContent",
-			"description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration and easing.",
+			"description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration, easing and disappear options.",
 			"type": "registry:component",
 			"dependencies": [
 				"gsap@^3.13.0"
@@ -54,7 +54,7 @@
 		{
 			"name": "AnimatedContent-TS-TW",
 			"title": "AnimatedContent",
-			"description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration and easing.",
+			"description": "Wrapper that animates any children on scroll or mount with configurable direction, distance, duration, easing and disappear options.",
 			"type": "registry:component",
 			"dependencies": [
 				"gsap@^3.13.0"
@@ -398,7 +398,7 @@
 		{
 			"name": "FadeContent-JS-CSS",
 			"title": "FadeContent",
-			"description": "Simple directional fade / slide entrance wrapper with threshold-based activation.",
+			"description": "Simple directional fade / slide entrance / exit wrapper with threshold-based activation.",
 			"type": "registry:component",
 			"dependencies": [
 				"gsap@^3.13.0"
@@ -414,7 +414,7 @@
 		{
 			"name": "FadeContent-JS-TW",
 			"title": "FadeContent",
-			"description": "Simple directional fade / slide entrance wrapper with threshold-based activation.",
+			"description": "Simple directional fade / slide entrance / exit wrapper with threshold-based activation.",
 			"type": "registry:component",
 			"dependencies": [
 				"gsap@^3.13.0"
@@ -430,7 +430,7 @@
 		{
 			"name": "FadeContent-TS-CSS",
 			"title": "FadeContent",
-			"description": "Simple directional fade / slide entrance wrapper with threshold-based activation.",
+			"description": "Simple directional fade / slide entrance / exit wrapper with threshold-based activation.",
 			"type": "registry:component",
 			"dependencies": [
 				"gsap@^3.13.0"
@@ -446,7 +446,7 @@
 		{
 			"name": "FadeContent-TS-TW",
 			"title": "FadeContent",
-			"description": "Simple directional fade / slide entrance wrapper with threshold-based activation.",
+			"description": "Simple directional fade / slide entrance / exit wrapper with threshold-based activation.",
 			"type": "registry:component",
 			"dependencies": [
 				"gsap@^3.13.0"
@@ -800,6 +800,70 @@
 				{
 					"type": "registry:component",
 					"path": "LogoLoop/LogoLoop.tsx"
+				}
+			]
+		},
+		{
+			"name": "MasonEffect-JS-CSS",
+			"title": "MasonEffect",
+			"description": "Transforms text into thousands of particles and smoothly morphs them with mouse interaction.",
+			"type": "registry:component",
+			"dependencies": [],
+			"registryDependencies": [],
+			"files": [
+				{
+					"type": "registry:component",
+					"path": "MasonEffect/MasonEffect.css"
+				},
+				{
+					"type": "registry:component",
+					"path": "MasonEffect/MasonEffect.jsx"
+				}
+			]
+		},
+		{
+			"name": "MasonEffect-JS-TW",
+			"title": "MasonEffect",
+			"description": "Transforms text into thousands of particles and smoothly morphs them with mouse interaction.",
+			"type": "registry:component",
+			"dependencies": [],
+			"registryDependencies": [],
+			"files": [
+				{
+					"type": "registry:component",
+					"path": "MasonEffect/MasonEffect.jsx"
+				}
+			]
+		},
+		{
+			"name": "MasonEffect-TS-CSS",
+			"title": "MasonEffect",
+			"description": "Transforms text into thousands of particles and smoothly morphs them with mouse interaction.",
+			"type": "registry:component",
+			"dependencies": [],
+			"registryDependencies": [],
+			"files": [
+				{
+					"type": "registry:component",
+					"path": "MasonEffect/MasonEffect.css"
+				},
+				{
+					"type": "registry:component",
+					"path": "MasonEffect/MasonEffect.tsx"
+				}
+			]
+		},
+		{
+			"name": "MasonEffect-TS-TW",
+			"title": "MasonEffect",
+			"description": "Transforms text into thousands of particles and smoothly morphs them with mouse interaction.",
+			"type": "registry:component",
+			"dependencies": [],
+			"registryDependencies": [],
+			"files": [
+				{
+					"type": "registry:component",
+					"path": "MasonEffect/MasonEffect.tsx"
 				}
 			]
 		},
@@ -8114,6 +8178,78 @@
 				{
 					"type": "registry:component",
 					"path": "FloatingLines/FloatingLines.tsx"
+				}
+			]
+		},
+		{
+			"name": "LightPillar-JS-CSS",
+			"title": "LightPillar",
+			"description": "Vertical pillar of light with glow effects.",
+			"type": "registry:component",
+			"dependencies": [
+				"three@^0.167.1"
+			],
+			"registryDependencies": [],
+			"files": [
+				{
+					"type": "registry:component",
+					"path": "LightPillar/LightPillar.css"
+				},
+				{
+					"type": "registry:component",
+					"path": "LightPillar/LightPillar.jsx"
+				}
+			]
+		},
+		{
+			"name": "LightPillar-JS-TW",
+			"title": "LightPillar",
+			"description": "Vertical pillar of light with glow effects.",
+			"type": "registry:component",
+			"dependencies": [
+				"three@^0.167.1"
+			],
+			"registryDependencies": [],
+			"files": [
+				{
+					"type": "registry:component",
+					"path": "LightPillar/LightPillar.jsx"
+				}
+			]
+		},
+		{
+			"name": "LightPillar-TS-CSS",
+			"title": "LightPillar",
+			"description": "Vertical pillar of light with glow effects.",
+			"type": "registry:component",
+			"dependencies": [
+				"three@^0.167.1"
+			],
+			"registryDependencies": [],
+			"files": [
+				{
+					"type": "registry:component",
+					"path": "LightPillar/LightPillar.css"
+				},
+				{
+					"type": "registry:component",
+					"path": "LightPillar/LightPillar.tsx"
+				}
+			]
+		},
+		{
+			"name": "LightPillar-TS-TW",
+			"title": "LightPillar",
+			"description": "Vertical pillar of light with glow effects.",
+			"type": "registry:component",
+			"dependencies": [
+				"three@^0.167.1"
+			],
+			"registryDependencies": [],
+			"files": [
+				{
+					"type": "registry:component",
+					"path": "LightPillar/LightPillar.tsx"
 				}
 			]
 		}

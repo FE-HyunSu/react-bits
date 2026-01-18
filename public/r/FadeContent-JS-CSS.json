@@ -2,7 +2,7 @@
 	"$schema": "https://ui.shadcn.com/schema/registry-item.json",
 	"name": "FadeContent-JS-CSS",
 	"title": "FadeContent",
-	"description": "Simple directional fade / slide entrance wrapper with threshold-based activation.",
+	"description": "Simple directional fade / slide entrance / exit wrapper with threshold-based activation.",
 	"type": "registry:component",
 	"files": [
 		{

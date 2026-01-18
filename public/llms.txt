@@ -71,6 +71,7 @@ Notes:
 - [Logo Loop](https://www.reactbits.dev/animations/logo-loop): Continuously looping marquee of brand or tech logos with seamless repeat and hover pause. CLI: `LogoLoop`.
 - [Magnet](https://www.reactbits.dev/animations/magnet): Elements magnetically ease toward the cursor then settle back with spring physics. CLI: `Magnet`.
 - [Magnet Lines](https://www.reactbits.dev/animations/magnet-lines): Animated field lines bend toward the cursor. CLI: `MagnetLines`.
+- [Mason Effect](https://www.reactbits.dev/animations/mason-effect): Transforms text into thousands of particles and smoothly morphs them with mouse interaction. CLI: `MasonEffect`.
 - [Meta Balls](https://www.reactbits.dev/animations/meta-balls): Liquid metaball blobs that merge and separate with smooth implicit surface animation. CLI: `MetaBalls`.
 - [Metallic Paint](https://www.reactbits.dev/animations/metallic-paint): Liquid metallic paint shader which can be applied to SVG elements. CLI: `MetallicPaint`.
 - [Noise](https://www.reactbits.dev/animations/noise): Animated film grain / noise overlay adding subtle texture and motion. CLI: `Noise`.
